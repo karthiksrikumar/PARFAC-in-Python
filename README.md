@@ -11,3 +11,6 @@ The script's output includes the component vectors (factors) for entities and do
 The PARAFAC decomposition is a powerful tool in tensor analysis and has applications in various fields, including signal processing, chemometrics, psychometrics, and machine learning. By leveraging this technique, the script aims to uncover latent patterns and relationships within the provided dataset, potentially enabling further analysis, modeling, or decision-making processes.
 
 To run the script, users need to have the Pandas, NumPy, and TensorLy libraries installed. The script reads the dataset from a CSV file named "numbers.csv" and expects the file to contain columns for "Entity," "Training computation (petaFLOP)," and "Domain." After preprocessing the data and constructing the tensor, the script performs the PARAFAC decomposition with a specified rank and outputs the component vectors and weights.
+
+We can apply this to one primary domain: 
+  Recommender Systems: PARAFAC can be used to build recommendation models for products, movies, or music by analyzing the tensor formed by users, items, and contextual information (e.g., time, location). The component vectors can capture latent preferences or characteristics of users and items, aiding in personalized recommendations.
